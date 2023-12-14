@@ -29,4 +29,4 @@ Select ecode,ename FROM employee where grade IN ('E5','E6','E8');
 Select ecode,ename FROM employee where ename LIKE 'H%'; # Names start with 'H' letter 
 Select ecode ,ename FROM employee where ename LIKE '_a%'; # Names having second letter 'a'.
 # Searching for NULL
-Select ecode ,ename FROM employee where grade IS Null;employee
+Select ecode ,ename FROM employee where grade IS Null;
